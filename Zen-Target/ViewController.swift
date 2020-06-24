@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var currentValue: Int = 0
-    var targetValue: Int = 0
+    var currentValue = 0
+    var targetValue = 0
+    var score = 0
     
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var targetLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
     
     override func viewDidLoad() {
         let roundedValue = slider.value.rounded()
@@ -23,11 +25,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
-        
         let difference = abs(targetValue - currentValue)
         let points = 100 - difference
-        
-        let message = "You scored \(points)" 
+        score += points
+        let message = "You scored \(points)"
         let alert = UIAlertController(title: "Hello world", message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
         alert.addAction(action)
@@ -49,6 +50,7 @@ class ViewController: UIViewController {
     
     func updateLabels() {
         targetLabel.text = String(targetValue)
+        scoreLabel.text = String(score)
     }
     
 }
