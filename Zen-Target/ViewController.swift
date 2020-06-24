@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var targetLabel: UILabel!
-
+    
     override func viewDidLoad() {
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
@@ -23,8 +23,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
+        
+        var difference = currentValue - targetValue
+        if difference < 0 {
+            difference = difference * -1
+        }
+        
         let message = "The value of the slider is now: \(currentValue)" +
-        "\nThe target value: \(targetValue)"
+            "\nThe target value: \(targetValue)" +
+        "\nThe difference is: \(difference)"
         let alert = UIAlertController(title: "Hello world", message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
         alert.addAction(action)
