@@ -11,8 +11,11 @@ import UIKit
 class ViewController: UIViewController {
     
     var currentValue: Int = 0
+    @IBOutlet weak var slider: UISlider!
 
     override func viewDidLoad() {
+        let roundedValue = slider.value.rounded()
+        currentValue = Int(roundedValue)
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
