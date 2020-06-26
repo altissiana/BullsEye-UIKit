@@ -194,7 +194,7 @@ Your goal is to place the slider as close as possible to the target value. The c
                                 <rect key="frame" x="20" y="109" width="387" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">When people point out that she has the mouth of a sailor, she responds with “I actually lived on a boat”. Tissi loves programming and dreams of riding motorcycles. Her hobbies consist of watching puppy videos on YouTube. Did I mention that she is looking for a job? She fits best with down to earth and genuine good fucking people. She gives zero fucks for haters. </string>
+                                <string key="text">When people point out that she has the mouth of a sailor, she responds with “I actually lived on a sailboat”. Tissi loves programming and dreams of riding motorcycles. Her hobbies consist of watching puppy videos on YouTube. Did I mention that she is looking for a job? She fits best with down to earth and genuine good fucking people. She gives zero fucks for haters. </string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
