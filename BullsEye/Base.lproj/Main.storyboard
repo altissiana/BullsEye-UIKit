@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Zen_Target" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BullsEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
         <!--About View Controller-->
         <scene sceneID="0lh-QU-qbX">
             <objects>
-                <viewController id="58l-18-Ea4" customClass="AboutViewController" customModule="Zen_Target" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="58l-18-Ea4" customClass="AboutViewController" customModule="BullsEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CXy-Fc-iG6">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
                         <viewLayoutGuide key="safeArea" id="g7w-1v-Jqp"/>
                     </view>
                     <connections>
-                        <outlet property="webView" destination="eIp-sk-Jnj" id="aPF-j3-xrp"/>
+                        <outlet property="webView" destination="eIp-sk-Jnj" id="OUx-7Y-Acm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRx-dY-Z8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -202,7 +202,7 @@
         <!--About Author View Controller-->
         <scene sceneID="EVY-IW-QVw">
             <objects>
-                <viewController id="Z4l-Lq-ccg" customClass="AboutAuthorViewController" customModule="Zen_Target" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Z4l-Lq-ccg" customClass="AboutAuthorViewController" customModule="BullsEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BWa-i6-5uf">
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

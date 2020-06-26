@@ -16,6 +16,7 @@
 		D375A17824A52E8800BEB37A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D375A17724A52E8800BEB37A /* AboutViewController.swift */; };
 		D37C34AE24A56CDA00467318 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37C34AD24A56CDA00467318 /* AboutAuthorViewController.swift */; };
 		D37C34B024A695DC00467318 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = D37C34AF24A695DC00467318 /* BullsEye.html */; };
+		D3FE890024A69D7D0011CE32 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FE88FF24A69D7D0011CE32 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D375A17724A52E8800BEB37A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		D37C34AD24A56CDA00467318 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		D37C34AF24A695DC00467318 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		D3FE88FF24A69D7D0011CE32 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FE890024A69D7D0011CE32 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,7 @@
 			children = (
 				D375A16224A2A1B800BEB37A /* BullsEye */,
 				D375A16124A2A1B800BEB37A /* Products */,
+				D3FE88FE24A69D7D0011CE32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +78,14 @@
 				D37C34AF24A695DC00467318 /* BullsEye.html */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		D3FE88FE24A69D7D0011CE32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FE88FF24A69D7D0011CE32 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
