@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D375A16024A2A1B800BEB37A /* Zen-Target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zen-Target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D375A16024A2A1B800BEB37A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D375A16324A2A1B800BEB37A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D375A16524A2A1B800BEB37A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D375A16724A2A1B800BEB37A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		D375A15724A2A1B800BEB37A = {
 			isa = PBXGroup;
 			children = (
-				D375A16224A2A1B800BEB37A /* Zen-Target */,
+				D375A16224A2A1B800BEB37A /* BullsEye */,
 				D375A16124A2A1B800BEB37A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 		D375A16124A2A1B800BEB37A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D375A16024A2A1B800BEB37A /* Zen-Target.app */,
+				D375A16024A2A1B800BEB37A /* BullsEye.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D375A16224A2A1B800BEB37A /* Zen-Target */ = {
+		D375A16224A2A1B800BEB37A /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
 				D375A16324A2A1B800BEB37A /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				D375A17124A2A1B900BEB37A /* Info.plist */,
 				D37C34AF24A695DC00467318 /* BullsEye.html */,
 			);
-			path = "Zen-Target";
+			path = BullsEye;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D375A15F24A2A1B800BEB37A /* Zen-Target */ = {
+		D375A15F24A2A1B800BEB37A /* BullsEye */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D375A17424A2A1B900BEB37A /* Build configuration list for PBXNativeTarget "Zen-Target" */;
+			buildConfigurationList = D375A17424A2A1B900BEB37A /* Build configuration list for PBXNativeTarget "BullsEye" */;
 			buildPhases = (
 				D375A15C24A2A1B800BEB37A /* Sources */,
 				D375A15D24A2A1B800BEB37A /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Zen-Target";
+			name = BullsEye;
 			productName = "Zen-Target";
-			productReference = D375A16024A2A1B800BEB37A /* Zen-Target.app */;
+			productReference = D375A16024A2A1B800BEB37A /* BullsEye.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D375A15B24A2A1B800BEB37A /* Build configuration list for PBXProject "Zen-Target" */;
+			buildConfigurationList = D375A15B24A2A1B800BEB37A /* Build configuration list for PBXProject "BullsEye" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D375A15F24A2A1B800BEB37A /* Zen-Target */,
+				D375A15F24A2A1B800BEB37A /* BullsEye */,
 			);
 		};
 /* End PBXProject section */
@@ -298,13 +298,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V49P55KSJH;
-				INFOPLIST_FILE = "Zen-Target/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BullsEye/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tissianaalves.Zen-Target";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tissianaalves.BullsEye;
+				PRODUCT_NAME = BullsEye;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -316,13 +316,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V49P55KSJH;
-				INFOPLIST_FILE = "Zen-Target/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BullsEye/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tissianaalves.Zen-Target";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tissianaalves.BullsEye;
+				PRODUCT_NAME = BullsEye;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -331,7 +331,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D375A15B24A2A1B800BEB37A /* Build configuration list for PBXProject "Zen-Target" */ = {
+		D375A15B24A2A1B800BEB37A /* Build configuration list for PBXProject "BullsEye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D375A17224A2A1B900BEB37A /* Debug */,
@@ -340,7 +340,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D375A17424A2A1B900BEB37A /* Build configuration list for PBXNativeTarget "Zen-Target" */ = {
+		D375A17424A2A1B900BEB37A /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D375A17524A2A1B900BEB37A /* Debug */,

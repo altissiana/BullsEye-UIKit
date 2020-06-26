@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Zen-Target
+//  BullsEye
 //
 //  Created by Tissiana Alves on 6/23/20.
 //  Copyright © 2020 Tissiana Alves. All rights reserved.
